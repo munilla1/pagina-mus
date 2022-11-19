@@ -1,0 +1,32 @@
+.container-fluid {
+    background-color: rgb(107, 222, 143);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.carrito {
+    height: 30px;
+    width: 30px;
+    margin-left: 95%;
+}
+
+.gallery__previus {
+    height: 30px;
+    width: 30px;
+}
+
+.gallery__next {
+    height: 30px;
+    width: 30px;
+}
+
+.menos {
+    height: 30px;
+    width: 30px;
+}
+
+.mas {
+    height: 30px;
+    width: 30px;
+}
