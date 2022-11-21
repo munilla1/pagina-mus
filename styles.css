@@ -1,37 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container-fluid {
-    background-color: rgb(107, 222, 143);
-    border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: rgb(107, 222, 143);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .carrito {
-    height: 30px;
-    width: 30px;
-    margin-left: 95%;
+  height: 30px;
+  width: 30px;
+  margin-left: 95%;
 }
 
 .gallery__previus {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .gallery__next {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .menos {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .mas {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .boton_carrito {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
+
+.icono-eliminar {
+  height: 25px;
+  width: 25px;
+}
+
+.imagen-infografia {
+  width: 220px;
+  height: 160px;
+}
+
+.content {
+  width: 375px;
+  margin: auto;
+}
+@media (min-width: 1115px) {
+  .content {
+    width: 1115px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
