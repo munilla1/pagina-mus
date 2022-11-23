@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./main.css">
     <title>Pagina-mus</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 <!--avatar del carrito-->
-  <body class="p-3 m-0 border-0 bd-example">
-    <div class="header__cart-avatar">
-        <div class="header__cart">
-            <div class="header__cart--notification"></div>
-            <a href="./finalizacion_compra.html"><img  class="carrito" src="./imagenes/carrito-de-compras.png" alt="#"></a>        </div>
+  <body>
+    <div class="p-3 m-0 border-0 bd-example">
+        <div class="header__cart-avatar">
+            <div class="header__cart">
+                <div class="header__cart--notification"></div>
+                <a href="./finalizacion_compra.html"><img  class="carrito" src="./imagenes/carrito-de-compras.png" alt="#"></a>        
+            </div>
+        </div>
     </div>
 <!--barra de navegacion-->
     <nav class="navbar navbar-expand-lg bg-light">
@@ -45,44 +48,45 @@
         </div>
     </nav>
 <!--contenido de la infografia-->
-    <section class="content">
-        <article class="main-container">
-            <div>
-                <img class="imagen-infografia" src="./imagenes/ejercicio.jpg" alt="#">
-            </div>
-        </article>
 
-        <article class="details">
-            <h2 class="details__company">Cesar Munilla</h2>
-            <h2 class="details__title">Infografia 1</h2>
-            <p class="details__description">Descripcion de la infografia...</p>
-            <div class="details__prices">
-                <p class="details__now">20€<span class="details__descuento">50%</span></p>
-                <p class="details__before">40€</p>
-            </div>
-            <div class="details__cantidad-productos">
-                <button class="details__button"><img class="boton_carrito" src="./imagenes/carrito-de-compras.png" alt="#"> Añade al carrito</button>
-            </div>
-        </article>
-    </section>
-
-    <!--inicio modelo carrito-->
-    <div class="cart-modal">
-        <p class="cart-modal__title">Carrito</p>
-        <div class="cart-modal__chekout-container">
-            <div class="cart-modal__details-container">
-                <img class="imagen-carrito" src="./imagenes/ejercicio.jpg" alt="#">
+    <main class="main-container">
+        <header class="header">
+            <div class="header__navigation">
+            
+            <article class="details">
                 <div>
-                    <p class="cart-modal__product">Nombre del producto</p>
-                    <p class="cart-modal__price">20€</p>
+                    <img class="imagen-infografia" src="./imagenes/ejercicio.jpg" alt="#">
                 </div>
-                <img class="icono-eliminar" src="./imagenes/eliminar.png" alt="">
-            </div>
-            <button class="cart-modal__delete">Confirmar</button>
-        </div>
-    </div>
-    <!--fin modelo carrito-->
+                <h2 class="details__company">Cesar Munilla</h2>
+                <h2 class="details__title">Infografia 1</h2>
+                <p class="details__description">Descripcion de la infografia...</p>
+                <div class="details__prices">
+                    <p class="details__now">20€<span class="details__descuento">50%</span></p>
+                    <p class="details__before">40€</p>
+                </div>
+                <div class="details__cantidad-productos">
+                    <button class="details__button"><img class="boton_carrito" src="./imagenes/carrito-de-compras.png" alt="#"> Añade al carrito</button>
+                </div>
+            </article>
+        </header>
 
+        <!--inicio modelo carrito-->
+        <div class="cart-modal">
+            <p class="cart-modal__title">Carrito</p>
+            <div class="cart-modal__chekout-container">
+                <div class="cart-modal__details-container">
+                    <img class="imagen-carrito" src="./imagenes/ejercicio.jpg" alt="#">
+                    <div>
+                        <p class="cart-modal__product">Nombre del producto</p>
+                        <p class="cart-modal__price">20€</p>
+                    </div>
+                    <img class="icono-eliminar" src="./imagenes/eliminar.png" alt="">
+                </div>
+                <button class="cart-modal__delete">Confirmar</button>
+            </div>
+        </div>
+        <!--fin modelo carrito-->
+    </main>
 
 
   </body>
