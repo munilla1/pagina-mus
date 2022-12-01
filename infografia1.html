@@ -9,7 +9,7 @@
     <title>Pagina-mus</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-
+  <body>
 <!--barra de navegacion-->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -57,15 +57,14 @@
                         <p class="details__before">40€</p>
                     </div>
                     <div class="details__cantidad-productos">
-                        <button class="details__button"><img class="boton_carrito" src="./imagenes/carrito-de-compras.png" alt="#"> Comprar producto</button>
+                        <button id="boton_carrito" class="details__button"><img class="boton_carrito" src="./imagenes/carrito-de-compras.png" alt="#"> Comprar producto</button>
                     </div>
                 </article>
             </header>
     </main>
-    <div class="firma">
-        <p>Coded by Alvaro Munilla</p>
-    </div>
+        <p class="firma">Coded by Alvaro Munilla</p>
 
+    <script src="https://js.stripe.com/v3/"></script>
     <script src="./main.js"></script>
   </body>
 </html>
